@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 
 
-model = keras.models.load_model(r"/Sign-Language-Detection/VGG_final.h5")
+model = tensorflow.keras.models.load_model(r"/Sign-Language-Detection/VGG_final.h5")
 
 word_dict = {0: '1', 1: '10', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9'}
 
