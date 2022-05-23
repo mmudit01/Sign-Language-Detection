@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
-import keras
-from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
 
 
 model = keras.models.load_model(r"/workspace/VGG_final.h5")
