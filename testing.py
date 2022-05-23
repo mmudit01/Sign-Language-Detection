@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
-import keras
 import tensorflow as tf
+from tensorflow import keras
 from keras.preprocessing.image import ImageDataGenerator
 
 
